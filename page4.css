@@ -331,10 +331,12 @@ body {
   transform: translateY(0);
 }
 
+.resultpart {
+  display: flex;
+  justify-content: center;
+}
+
 .result_box {
-  left: 31%;
-  margin-left: 1em;
-  margin-right: 1em;
   padding: 1em;
   font-size: 1.2em;
   background-color: #EDE4D5;
